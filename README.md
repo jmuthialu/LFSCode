@@ -5,6 +5,10 @@ $ brew install git-lfs
 
 ## Configuring LFS (for Androd aar)
 
+Initialize lfs for this repo. This is one time activity per repo.
+
+$ git lfs install
+
 $ git lfs track "heresdk-navigate-android-4.16.2.0.12878.aar"
 This will create `.gitattributes` file which contains
 
